@@ -1,0 +1,174 @@
+html {
+  background: #dfbcbc;
+}
+main {
+  width: 100%;
+}
+#flexMenu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 20px 50px;
+}
+#flexMenu li {
+  font-size: 2.5em;
+  padding: 25px;
+}
+#footer {
+  font-size: 2.0em;
+  text-align: center;
+  margin: 50px;
+}
+.headerText {
+  text-align: center;
+  margin-top: 40px;
+}
+.paraText {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 25px;
+  color: #e77d7d;
+  font-style: oblique;
+  font-weight: bold;
+}
+.menuItems {
+  text-decoration: none;
+  color: black;
+}
+.menuItems:hover {
+  color: #fff;
+  transition: all 0.4s;
+}
+.active {
+  background-color: #e77d7d;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.active:hover {
+  background-color: #dfbcbc;
+  border: 2px solid white;
+  transition: all 0.4s;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+.tableHome {
+  max-width: 1200px;
+  border: 6px solid black;
+  background-color: #e77d7d;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.tableHome td, tr {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.tableHome th {
+  font-size: 1.7em;
+  border: 6px solid black;
+  padding: 10px;
+  background-color: #dfbcbc;
+}
+.tableHome td {
+  font-size: 1.5em;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px 10px;
+}
+#insertForm {
+  width: 50%;
+  border: 6px solid black;
+  background-color: #e77d7d;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.checkForm {
+  width: 50%;
+  border: 6px solid black;
+  background-color: #e77d7d;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#insertWrapper {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+label {
+  font-size: 2.0em;
+  padding: 20px -10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input {
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+  font-size: 2.0em;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#select {
+  border-radius: 10px;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+#select:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.buttons {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.0em;
+  background-color: #e77d7d;
+  box-shadow: none !important;
+}
+.check {
+  font-size: 0.8em;
+  margin: 10px 20px;
+}
+.buttons:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) !important;
+  transition: all 0.3s;
+}
+.Message {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  padding: 25px;
+  color: green;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+}
+.success {
+  color: green;
+}
+.failed {
+  color: red;
+}
+.checkHere {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6em;
+}
+.checkHere:hover {
+  color: #e77d7d;
+  transition: all 0.3s;
+}
